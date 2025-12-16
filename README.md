@@ -72,6 +72,7 @@ Simon-Says-Game/
 ## 👨‍💻 Author
 
 **Aditya Bhavar**  
+***Email**: adityabhavsar010@gmail.com
 - GitHub: https://github.com/Aadi1205 
 
 ---
