@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">Simon Says Game</h1>
+    <h2 class="subtitle">Press any key to start the game</h2>
+
+    <div class="score-container">
+        <div class="highScore-box">
+            High Score
+            <span class="score-value">0</span>
+        </div>
+    </div>
+
+<div class="main-layout">
+    <!-- LEFT PANEL -->
+    <div class="side-panel left-panel">
+        <h3> Game Info</h3>
+        <p><b>Level:</b> <span id="level-info">0</span></p>
+        <p class="rule">
+             <b>Rule</b><br>
+            Watch the pattern<br>
+            Repeat it correctly
+        </p>
+    </div>
+
+    <!-- GAME -->
+    <div class="btn-container">
+        <div class="line-one">
+            <div class="btn red" id="red"></div>
+            <div class="btn yellow" id="yellow"></div>
+        </div>
+        <div class="line-two">
+            <div class="btn green" id="green"></div>
+            <div class="btn purple" id="purple"></div>
+        </div>
+    </div>
+
+    <!-- RIGHT PANEL -->
+    <div class="side-panel right-panel">
+        <h3>🕹 How to Play</h3>
+        <ul>
+            <li>Press any key to start</li>
+            <li>Watch the color sequence</li>
+            <li>Repeat in correct order</li>
+            <li>Wrong move = Game Over</li>
+        </ul>
+    </div>
+</div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
